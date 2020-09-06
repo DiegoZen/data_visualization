@@ -1,0 +1,41 @@
+.text {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.graph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space:nowrap; 
+    overflow: scroll;
+}
+@media screen and (min-width: 992px) {
+    .graph {
+        align-items: center;
+    }
+  }
+@media screen and (max-width: 992px) {
+    .graph {
+        align-items: left;
+    }
+  }
+
+.scale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.scale-select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 200px;
+    max-width: 100%; 
+    box-sizing: border-box;
+}
