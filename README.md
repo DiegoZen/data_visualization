@@ -1,7 +1,7 @@
 # Data Visualization
 
 Data Visualization is a full-stack project made with React.js in the client and Ruby on Rails in the backend.
-It's a metrics visualizator that let you post new metrics. Each metric has name, value and timestamp. You can display values in the last day/hour/minute and it calculates the average value for that interval.
+It's a metrics display that let you post new metrics. Each metric has name, value and timestamp. You can display values in the last day/hour/minute and it calculates the average value for that interval.
 The backend was developed using test-driven development (TDD)
 
 ## Prerequisites
